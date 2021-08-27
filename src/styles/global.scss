@@ -1,0 +1,14 @@
+@mixin containerStyle {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top:80px;
+}
+
+@mixin rowStyle($grid,$fr) {
+    display: grid;
+    grid-template-columns: repeat($grid, $fr);
+    grid-gap: 20px;
+}
+

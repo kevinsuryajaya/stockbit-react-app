@@ -1,0 +1,38 @@
+@import "./global.scss";
+
+.container-movie {
+    @include containerStyle;
+}
+
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    h2 {
+        margin-bottom: 5px;
+    }
+    span {
+        margin-right: 5px;
+    }
+}
+
+.detail-container {
+    display: flex;
+}
+
+.detail-content {
+    margin-left: 20px;
+    span {
+        font-weight: 700;
+    }
+}
+
+.title-section {
+    font-weight: 700;
+}
+
+@media (min-width: 992px) {
+    .container-movie {
+        width: 970px;
+    }
+}

@@ -1,0 +1,49 @@
+.card-container {
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image {
+    height: 180px;
+    width: 150px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.card-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-footer{
+    display: flex;
+}
+
+.card-title {
+    color: black;
+}
+
+.dialog {
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    border: 0px;
+    position: fixed;
+    top: 0px;
+    padding-top: 150px;
+}
+
+.image-modal {
+    width: 400px;
+}
+
+.watchlist-button{
+    margin-left: 30px;
+    border: 1px solid #04AA6D;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    color: #04AA6D;
+}
