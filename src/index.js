@@ -3,10 +3,31 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {createStore} from 'redux';
+import { Provider } from 'react-redux';
+
+const globalState = {
+  watchlist: []
+}
+
+const rootReducer = (state = globalState, action) => {
+  
+  if (action.type === 'ADD_WATCHLIST') {
+    return {
+      ...state,
+      watchlist: [...state.watchlist, action.movie]
+    }
+  }
+  return state
+}
+
+const storeRedux = createStore(rootReducer);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={storeRedux}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
