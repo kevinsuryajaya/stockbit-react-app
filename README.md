@@ -3,21 +3,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Documentation
-- Build an web app to play Pokemon Games with React Hooks.
-- UI/UX design Mobile-First, so recommend to access with mobile device.
-- Use API from https://pokeapi.co/
+- Build an React app to search movie.
+- Use API from http://www.omdbapi.com/ with API key : faf7e5bb
 - It's a single page application.
 - This web app have 3 pages, Movie List(Home) Page, Movie Detail Page, Watchlist Page.
 - Deployed using heroku, you can check the web app on this link: https://pokemon-web-project.herokuapp.com/
 
 # References Code and Knowledge to Build This Web App
 - https://reactjs.org/docs/hooks-intro.html
-- https://pokeapi.co/
-- https://www.tokopedia.com/ (mobile and dekstop version)
-- https://id.portal-pokemon.com/play/pokedex
+- http://www.omdbapi.com/
 - https://www.w3schools.com/
-- https://emotion.sh/
-- https://www.heroku.com/
+- https://redux.js.org/
+- https://axios-http.com/docs/intro
+
+# Future Enhancement
+- more unit test in every component
+- increase code efficiency
 
 ## Available Scripts
 
