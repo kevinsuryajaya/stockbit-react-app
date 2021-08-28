@@ -5,21 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createStore} from 'redux';
 import { Provider } from 'react-redux';
-
-const globalState = {
-  watchlist: []
-}
-
-const rootReducer = (state = globalState, action) => {
-  
-  if (action.type === 'ADD_WATCHLIST') {
-    return {
-      ...state,
-      watchlist: [...state.watchlist, action.movie]
-    }
-  }
-  return state
-}
+import rootReducer from './redux/reducer/globalReducer';
 
 const storeRedux = createStore(rootReducer);
 
