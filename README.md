@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - This web app have 3 pages, Movie List(Home) Page, Movie Detail Page, Watchlist Page.
 - Implement unit test.
 
-# References Code and Knowledge to Build This Web App
+# Reference Code and Knowledge to Build This Web App
 - https://reactjs.org/docs/hooks-intro.html
 - http://www.omdbapi.com/
 - https://www.w3schools.com/
