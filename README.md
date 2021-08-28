@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - UI/UX design Mobile-First, so recommend to access with mobile device.
 - Use API from https://pokeapi.co/
 - It's a single page application.
-- This web app have 3 pages, Pokemon List(Home) Page, Pokemon Detail Page, My Pokemon(Profile) Page.
+- This web app have 3 pages, Movie List(Home) Page, Movie Detail Page, Watchlist Page.
 - Deployed using heroku, you can check the web app on this link: https://pokemon-web-project.herokuapp.com/
 
 # References Code and Knowledge to Build This Web App
@@ -22,6 +22,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+Don't forget to npm install before run the app
 
 ### `npm start`
 
