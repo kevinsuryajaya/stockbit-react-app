@@ -3,11 +3,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Documentation
-- Build an React app to search movie.
+- Build an React web app for movie.
 - Use API from http://www.omdbapi.com/ with API key : faf7e5bb
 - It's a single page application.
 - This web app have 3 pages, Movie List(Home) Page, Movie Detail Page, Watchlist Page.
-- Deployed using heroku, you can check the web app on this link: https://pokemon-web-project.herokuapp.com/
+- Implement unit test.
 
 # References Code and Knowledge to Build This Web App
 - https://reactjs.org/docs/hooks-intro.html
@@ -15,6 +15,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - https://www.w3schools.com/
 - https://redux.js.org/
 - https://axios-http.com/docs/intro
+
+# Web App Feature
+- search movie
+- pop up poster movie when click the image on card movie
+- see more detail about movie
+- add movie to watchlist
+- infinite scroll
 
 # Future Enhancement
 - more unit test in every component
